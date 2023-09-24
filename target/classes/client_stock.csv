@@ -1,0 +1,16 @@
+ClientId,ParentId
+A,
+B,A
+C,A
+D,B
+E,B
+D_1,D
+D_2,D
+D_1_1,D_1
+D_1_2,D_1
+D_2_1,D_2
+E_1,E
+F,C
+G,C
+F_1,F
+G_1,G
