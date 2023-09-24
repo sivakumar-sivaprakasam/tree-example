@@ -123,13 +123,13 @@ public class TreeExample {
             if (null != childList) {
                 for (String s : childList) {
                     dto = clientMap.get(s);
-                    String newTmp = (s + "|" + tmp);
+                    tmp = (s + "|" + tmp);
                     if (null != dto.getDocList()) {
                         for (String d : dto.getDocList()) {
-                            System.out.println("Hierarchy for Document Id: " + d + " >>> " + newTmp);
+                            System.out.println("Hierarchy for Document Id: " + d + " >>> " + tmp);
                         }
                     }
-                    addAllChildren(dto, dtoList, newTmp);
+                    addAllChildren(dto, dtoList, tmp);
                 }
             }
         }
